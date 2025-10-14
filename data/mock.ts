@@ -50,24 +50,227 @@ export const mockServices = [
 
 export const mockTestimonial = {
   quote:
-    "Mike's understanding of our requirements, his fantastic design skills and his laidback but professional and attentive manner made the project a resounding success.",
-  name: "Charlie Shepherd",
-  role: "Founder – Epic Travel",
+    "Mr. Solaiman's understanding of our requirements, his fantastic design skills and his laidback but professional and attentive manner made the project a resounding success.",
+  name: "Shafikul Islam",
+  role: "Managing Director – Angina Project",
   avatar:
     "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
 };
 
 export const mockClients = [
-  "Apple",
-  "Google",
-  "Microsoft",
-  "Nike",
-  "Adidas",
-  "Samsung",
-  "Amazon",
-  "Facebook",
-  "Tesla",
-  "Netflix",
-  "Spotify",
-  "Adobe",
+  "Angina Project",
+  "Astha Infrastructure",
+  "Serenity Properties",
+  "Urban Developers Ltd",
+  "Modern Furniture Studio",
+];
+
+export const heroImages = [
+  "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=600&fit=crop",
+  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+];
+
+export const residenceTypes = [
+  { name: "Studio", icon: "●" },
+  { name: "1-Bedroom", icon: "●" },
+  { name: "2-Bedroom", icon: "●●" },
+  { name: "3-Bedroom", icon: "●●●" },
+];
+
+export const detailsTabs = [
+  {
+    id: "furniture-design",
+    label: "FURNITURE DESIGN",
+    title: "Modern Furniture, Masterfully Tailored",
+    description:
+      "We create heirloom-quality pieces from sustainably sourced timber. Clean, modern lines are crafted to your exact needs, blending lasting function with natural beauty.",
+    image:
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop",
+    link: "/residences",
+    linkText: "Explore residences",
+  },
+  {
+    id: "woodworking",
+    label: "WOODWORKING",
+    title: "Crafting Environments in Wood",
+    description:
+      "We bring bespoke woodworking to life for home, office, and commercial clients. Each project is tailored to enhance your space, merging functional design with the timeless warmth of natural timber.",
+    image:
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop",
+    link: "/amenities",
+    linkText: "Explore amenities",
+  },
+  {
+    id: "interior-exterior-design",
+    label: "INTERIOR & EXTERIOR DESIGN",
+    title: "Unified Interior & Exterior Design",
+    description:
+      "We create harmonious living environments where the boundary between inside and outside gracefully dissolves. Our designs blend bespoke interior spaces with natural, timber-centric exteriors for a unified and tranquil experience.",
+    image:
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=1200&h=800&fit=crop",
+    link: "/neighborhood",
+    linkText: "Explore neighborhood",
+  },
+  {
+    id: "carpentry-service",
+    label: "CARPENTRY SERVICE",
+    title: "Bespoke Carpentry Solutions",
+    description:
+      "Tailored craftsmanship for your vision. From intricate details to bold statements, we provide custom carpentry that perfectly fits your space, style, and functional needs.",
+    image:
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=1200&h=800&fit=crop",
+    link: "/neighborhood",
+    linkText: "Explore neighborhood",
+  },
+];
+
+export const newsArticles = [
+  {
+    id: 1,
+    category: "Neighborhood",
+    title: "Unleash The Best Life for You and Your Dog at Caspian",
+    image:
+      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop",
+    link: "/news/unleash-the-best-life",
+  },
+  {
+    id: 2,
+    category: "Neighborhood",
+    title:
+      "The Bay Area's Hottest Spots to Roller Skate: Hint the Basin Boardwalk Tops the List",
+    image:
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&h=400&fit=crop",
+    link: "/news/roller-skate-spots",
+  },
+  {
+    id: 3,
+    category: "Events",
+    title: "RSVP for the Caspian VIP Preview Event on Oct 18 from 1 to 4 PM",
+    image:
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop",
+    link: "/news/vip-preview-event",
+  },
+  {
+    id: 4,
+    category: "Neighborhood",
+    title:
+      "Fresh on our Agenda: On Sundays We Shop the Farmers' Market at Nearby JLS",
+    image:
+      "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&h=400&fit=crop",
+    link: "/news/farmers-market",
+  },
+  {
+    id: 5,
+    category: "News",
+    title:
+      "Caspian is Now Selling – Be Among the First to Own at Brooklyn Basin",
+    image:
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop",
+    link: "/news/now-selling",
+  },
+  {
+    id: 6,
+    category: "Neighborhood",
+    title:
+      "Prost! Celebrate Oktoberfest at Brotzeit Lokal's Brooklyn Basin Beer Garden",
+    image:
+      "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&h=400&fit=crop",
+    link: "/news/oktoberfest",
+  },
+  {
+    id: 7,
+    category: "Residences",
+    title: "The Ultimate Urban Oasis: Experience Caspian's Amenity-Rich Life",
+    image:
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop",
+    link: "/news/urban-oasis",
+  },
+];
+
+// Mock data for project showcase gallery
+export const projects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    description:
+      "A modern online shopping experience with seamless checkout and inventory management.",
+    image:
+      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+    gridSize: "large", // 2x2
+  },
+  {
+    id: 2,
+    title: "Mobile Banking App",
+    description:
+      "Secure and intuitive banking solution for iOS and Android platforms.",
+    image:
+      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
+    gridSize: "wide", // 2x1
+  },
+  {
+    id: 3,
+    title: "Task Management Tool",
+    description:
+      "Streamline team collaboration with smart project tracking features.",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+    gridSize: "normal", // 1x1
+  },
+  {
+    id: 4,
+    title: "Fitness Tracker",
+    description:
+      "Track workouts, nutrition, and wellness goals in one comprehensive app.",
+    image:
+      "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80",
+    gridSize: "tall", // 1x2
+  },
+  {
+    id: 5,
+    title: "Real Estate Portal",
+    description:
+      "Browse, compare, and purchase properties with virtual tour capabilities.",
+    image:
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+    gridSize: "normal", // 1x1
+  },
+  {
+    id: 6,
+    title: "Social Analytics Dashboard",
+    description:
+      "Comprehensive insights and metrics for social media performance tracking.",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    gridSize: "wide", // 2x1
+  },
+  {
+    id: 7,
+    title: "Recipe Sharing Platform",
+    description:
+      "Discover, save, and share delicious recipes from around the world.",
+    image:
+      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+    gridSize: "normal", // 1x1
+  },
+  {
+    id: 8,
+    title: "Educational Learning Hub",
+    description:
+      "Interactive courses and certification programs for professional development.",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+    gridSize: "tall", // 1x2
+  },
+  {
+    id: 9,
+    title: "Travel Booking System",
+    description:
+      "Plan perfect vacations with flight, hotel, and activity recommendations.",
+    image:
+      "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800&q=80",
+    gridSize: "normal", // 1x1
+  },
 ];

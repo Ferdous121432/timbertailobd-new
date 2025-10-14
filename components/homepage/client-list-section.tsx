@@ -5,7 +5,7 @@ const ClientListSection = () => {
   return (
     <section className="py-20 px-6  bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
+        <h2 className="text-lg md:text-3xl font-bold text-primary-color mb-6">
           People we've made things for:
         </h2>
         <p className="text-gray-600 text-lg mb-12">
@@ -17,8 +17,8 @@ const ClientListSection = () => {
           {mockClients.map((client, index) => (
             <div
               key={index}
-              className="flex items-center justify-center p-6 border border-gray-200 rounded-lg hover:border-blue-600 transition-colors cursor-pointer group">
-              <span className="text-gray-400 group-hover:text-blue-600 transition-colors font-medium">
+              className="flex items-center justify-center p-6 border border-primary-color rounded-lg hover:border-primary-color transition-colors cursor-pointer group">
+              <span className="text-gray-600 group-hover:text-primary-color transition-colors font-medium">
                 {client}
               </span>
             </div>

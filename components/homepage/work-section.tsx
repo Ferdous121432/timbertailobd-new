@@ -7,12 +7,12 @@ const WorkSection = () => {
     <section id="work" className="py-20 px-6 mb-border bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-12">
-          <h2 className="text-4xl font-bold text-blue-600">
+          <h2 className="text-lg md:text-3xl  font-bold text-primary-color">
             Work – Highlights
           </h2>
           <a
             href="#work"
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors text-lg font-medium group">
+            className="inline-flex items-center gap-2 text-primary-color hover:text-blue-700 transition-colors text-xs md:text-lg font-medium group">
             View our Work
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
@@ -29,11 +29,13 @@ const WorkSection = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-md md:text-xl font-bold text-gray-900 mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-600 mb-3">{project.description}</p>
-              <span className="inline-flex items-center gap-2 text-blue-600 font-medium group-hover:gap-3 transition-all">
+              <p className="text-sm md:text-base text-gray-600 mb-3">
+                {project.description}
+              </p>
+              <span className="inline-flex items-center gap-2 text-primary-color font-medium group-hover:gap-3 transition-all">
                 View Project
                 <ArrowRight className="w-4 h-4" />
               </span>

@@ -5,7 +5,7 @@ const TestimonialSection = () => {
   return (
     <section className="py-32 px-6 mb-border bg-gray-50">
       <div className="max-w-5xl mx-auto">
-        <blockquote className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-12">
+        <blockquote className="text-xl md:text-3xl font-bold text-gray-900 leading-tight mb-12">
           {mockTestimonial.quote}
         </blockquote>
 

@@ -39,7 +39,7 @@
   --color-card: var(--card);
   --color-primary-color: var(--primarycolor);
   --radius-sm: calc(var(--radius) - 4px);
-  --primarycolor: oklch(0.546 0.245 262.881);
+  --primarycolor: oklch(52.882% 0.10852 241.291);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
@@ -119,17 +119,17 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
-  .mx-border {
+  /* .mx-border {
     @apply md:border-x  border-primary-color xl:mx-20 lg:mx-14 md:mx-10 sm:mx-4 mx-2;
   }
   .mt-border {
     @apply md:border-t border-primary-color;
   }
   .mb-border {
-    @apply md:border-b border-blue-600;
-  }
+    @apply md:border-b border-primary-color;
+  } */
 }
 
 @layer components {
