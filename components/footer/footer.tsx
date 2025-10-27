@@ -123,7 +123,7 @@ const Footer = () => {
               © 2025{" "}
               <span>
                 <Link
-                  href="/"
+                  href="https://firdous.pro"
                   className="text-yellow-400 hover:text-yellow-600 hover:font-bold transition-colors">
                   Firdous
                 </Link>

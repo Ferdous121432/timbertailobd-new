@@ -1,3 +1,5 @@
+import { galaryImages } from "./galary-image";
+
 export const mockProjects = [
   {
     title: "Epic Travel",
@@ -194,83 +196,74 @@ export const newsArticles = [
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Innovative Interior Design",
     description:
-      "A modern online shopping experience with seamless checkout and inventory management.",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+      "Transforming spaces with cutting-edge interior solutions that blend aesthetics and functionality.",
+    image: galaryImages[4].src,
     gridSize: "large", // 2x2
   },
   {
     id: 2,
-    title: "Mobile Banking App",
+    title: "aesthetics Exterior",
     description:
-      "Secure and intuitive banking solution for iOS and Android platforms.",
-    image:
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
+      "Elevate your outdoor spaces with stunning designs that harmonize with nature.",
+    image: galaryImages[5].src,
     gridSize: "wide", // 2x1
   },
   {
     id: 3,
-    title: "Task Management Tool",
+    title: "Modern CNC Machining",
     description:
-      "Streamline team collaboration with smart project tracking features.",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+      "Precision-crafted components using advanced CNC technology for superior quality and performance.",
+    image: galaryImages[2].src,
     gridSize: "normal", // 1x1
   },
   {
     id: 4,
-    title: "Fitness Tracker",
+    title: "Wooden Flooring Solutions",
     description:
-      "Track workouts, nutrition, and wellness goals in one comprehensive app.",
-    image:
-      "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80",
+      "Transform your space with our premium wooden flooring options, combining durability and elegance.",
+    image: galaryImages[8].src,
     gridSize: "tall", // 1x2
   },
   {
     id: 5,
-    title: "Real Estate Portal",
+    title: "Mature Wood",
     description:
-      "Browse, compare, and purchase properties with virtual tour capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+      "Experience the timeless beauty and strength of mature wood in our bespoke furniture and design projects.",
+    image: galaryImages[7].src,
     gridSize: "normal", // 1x1
   },
   {
     id: 6,
-    title: "Social Analytics Dashboard",
+    title: "Quality Wooden Flooring",
     description:
-      "Comprehensive insights and metrics for social media performance tracking.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "Premium wooden flooring crafted for elegance and durability in every space.",
+    image: galaryImages[12].src,
     gridSize: "wide", // 2x1
   },
   {
     id: 7,
-    title: "Recipe Sharing Platform",
+    title: "Varieties of Wood",
     description:
-      "Discover, save, and share delicious recipes from around the world.",
-    image:
-      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+      "Explore the diverse range of wood species and their unique characteristics.",
+    image: galaryImages[15].src,
     gridSize: "normal", // 1x1
   },
   {
     id: 8,
-    title: "Educational Learning Hub",
+    title: "Innovative Kitchen Solutions",
     description:
-      "Interactive courses and certification programs for professional development.",
-    image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+      "Transform your cooking space with cutting-edge designs and smart technology.",
+    image: galaryImages[1].src,
     gridSize: "tall", // 1x2
   },
   {
     id: 9,
-    title: "Travel Booking System",
+    title: "Factory Tour Experience",
     description:
-      "Plan perfect vacations with flight, hotel, and activity recommendations.",
-    image:
-      "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800&q=80",
-    gridSize: "normal", // 1x1
+      "Get an insider's view of our production process and craftsmanship.",
+    image: galaryImages[16].src,
+    gridSize: "tall", // 1x1
   },
 ];
