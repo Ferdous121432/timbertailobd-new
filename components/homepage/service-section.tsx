@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { ArrowRight } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 import { detailsTabs } from "@/data/mock";
 import { Button } from "../ui/button";

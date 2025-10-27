@@ -1,5 +1,3 @@
-import Footer from "@/components/footer/footer";
-import Navigation from "@/components/header/navigation";
 import ClientListSection from "@/components/homepage/client-list-section";
 import ClientSection from "@/components/homepage/client-section";
 import ContactSection from "@/components/homepage/contact-us";

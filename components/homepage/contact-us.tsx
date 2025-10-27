@@ -1,8 +1,6 @@
 import React from "react";
 
-import { ArrowRight } from "lucide-react";
-import { Button } from "../ui/button";
-import { residenceTypes } from "@/data/mock";
+
 import ContactWhatsApp from "../shared/contact-whatsapp";
 
 const ContactSection = () => {

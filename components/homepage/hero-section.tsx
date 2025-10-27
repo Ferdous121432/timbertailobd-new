@@ -2,7 +2,7 @@
 import React, { useRef, useEffect, useState } from "react";
 
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { heroImages, residenceTypes } from "@/data/mock";
+import { heroImages } from "@/data/mock";
 
 const HeroSection = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
